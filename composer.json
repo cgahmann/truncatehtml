@@ -1,0 +1,24 @@
+{
+    "name": "bolt/truncateme",
+    "description": "Truncate string while preserving HTML tags and whole words",
+    "type": "bolt-extension",
+    "keywords" : [ "truncate", "html" ],
+    "require": {
+        "bolt/bolt": ">=2.0.0,<3.0.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christoph Gahmann",
+            "email": "info@cgdesign.de"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "init.php"
+        ],
+        "psr-4": {
+            "Bolt\\Extension\\cgahmann\\truncatehtml\\": ""
+        }
+    }
+}
