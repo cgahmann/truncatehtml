@@ -1,7 +1,5 @@
 <?php
 
-namespace Bolt\Extension\cgahmann\truncatehtml;
+namespace Bolt\Extension\CGahmann\TruncateHtml\Extension;
 
-if (isset($app)) {
-    $app['extensions']->register(new Extension($app));
-}
+$app['extensions']->register(new Extension($app));
