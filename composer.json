@@ -13,6 +13,8 @@
             "email": "info@cgdesign.de"
         }
     ],
+    "minimum-stability" : "dev",
+    "prefer-stable" : true,
     "autoload": {
         "files": [
             "init.php"
