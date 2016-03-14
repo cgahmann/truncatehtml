@@ -1,5 +1,5 @@
 {
-    "name": "cgahmann/truncatehtml",
+    "name": "bolt/truncatehtml",
     "description": "Truncate string while preserving HTML tags and whole words",
     "type": "bolt-extension",
     "keywords" : [ "truncate", "html", "twig", "bolt", "template" ],
@@ -10,17 +10,24 @@
     "authors": [
         {
             "name": "Christoph Gahmann",
-            "email": "info@cgdesign.de"
+            "email": "info@cgdesign.de",
+            "homepage": "https://github.com/cgahmann"
         }
     ],
-    "minimum-stability" : "dev",
-    "prefer-stable" : true,
+	"minimum-stability" : "dev",
+	"prefer-stable" : true,
     "autoload": {
         "files": [
             "init.php"
         ],
         "psr-4": {
             "Bolt\\Extension\\CGahmann\\TruncateHtml\\": ""
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Bolt\\Extensions\\CGahmann\\TruncateHtml\\Tests\\": "tests",
+            "Bolt\\Tests\\": "vendor/bolt/bolt/tests/phpunit/unit/"
         }
     }
 }
