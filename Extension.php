@@ -12,7 +12,7 @@ class Extension extends BaseExtension {
     }
 
     public function getName() {
-        return "truncateme";
+        return "TruncateHtml";
     }
 
     /*
