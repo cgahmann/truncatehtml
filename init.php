@@ -2,4 +2,6 @@
 
 namespace Bolt\Extension\CGahmann\TruncateHtml;
 
-$app['extensions']->register(new Extension($app));
+if (isset($app)) {
+    $app['extensions']->register(new Extension($app));
+}
