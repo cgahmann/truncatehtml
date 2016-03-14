@@ -1,6 +1,6 @@
 <?php
 
-namespace Bolt\Extension\cgahmann\truncatehtml;
+namespace Bolt\Extension\CGahmann\TruncateHtml;
 
 use Bolt\Application;
 use Bolt\BaseExtension;
@@ -12,7 +12,7 @@ class Extension extends BaseExtension {
     }
 
     public function getName() {
-        return "truncateme";
+        return "TruncateHtml";
     }
 
     /*
