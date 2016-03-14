@@ -1,5 +1,5 @@
 <?php
 
-namespace Bolt\Extension\CGahmann\TruncateHtml\Extension;
+namespace Bolt\Extension\CGahmann\TruncateHtml;
 
 $app['extensions']->register(new Extension($app));
