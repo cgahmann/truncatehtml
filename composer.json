@@ -1,5 +1,5 @@
 {
-    "name": "bolt/truncatehtml",
+    "name": "cgahmann/truncatehtml",
     "description": "Truncate string while preserving HTML tags and whole words",
     "type": "bolt-extension",
     "keywords" : [ "truncate", "html", "twig", "bolt", "template" ],
