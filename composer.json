@@ -14,8 +14,8 @@
             "homepage": "https://github.com/cgahmann"
         }
     ],
-	"minimum-stability" : "dev",
-	"prefer-stable" : true,
+    "minimum-stability" : "dev",
+    "prefer-stable" : true,
     "autoload": {
         "files": [
             "init.php"
